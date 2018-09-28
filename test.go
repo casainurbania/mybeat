@@ -42,3 +42,7 @@ func collet() {
 	fmt.Printf("        OS        : %v(%v)   %v  \n", n.Platform, n.PlatformFamily, n.PlatformVersion)
 	fmt.Printf("        Hostname  : %v  \n", n.Hostname)
 }
+
+func main() {
+	collet()
+}
