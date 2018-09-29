@@ -3,6 +3,135 @@
 	"ignore": "test",
 	"package": [
 		{
+			"path": "C",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "c1CaBByEXe6owxQGH64xp4jGpzI=",
+			"path": "archive/zip",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ilhWancI2Sr61LERes4cvmFWbSg=",
+			"path": "bufio",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "jU6hnuOzIuq3frbgM7UyVp/3ofQ=",
+			"path": "bytes",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "rXoyfzK9TgpU2wweMJKVwfNbaHU=",
+			"path": "compress/flate",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Mo/9J+sc7NqmOrkqvQvodV5S9f8=",
+			"path": "compress/gzip",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "fSOblUcX8pvpUzhODmhlIlto6FQ=",
+			"path": "compress/zlib",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "8AijOlwzzIJ6BMk/LyhAduLWcZU=",
+			"path": "context",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "/Dp4Vd6LqILOvgpjDOM5AFN3M1E=",
+			"path": "crypto/md5",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "lT7TmTm+V5idqYqPZ2gHCOaVBVk=",
+			"path": "crypto/rand",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "BRMwrmeJC4bz4t/wxotTZCs8FLc=",
+			"path": "crypto/sha1",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ajxneIpFPjtV7Acug2+XRV2PA7M=",
+			"path": "crypto/tls",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "NsJvi8M5LW/JRBZ/Qwhz4H31U/k=",
+			"path": "crypto/x509",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "K682xXta+0lTcfg/P2/ZAKGYj+A=",
+			"path": "database/sql/driver",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "p+hh6nSbs6Qc4f6JKmxG8RtKiEg=",
+			"path": "encoding",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "iW/e3GAeABpsUA+ZYeMfcGsR8OI=",
+			"path": "encoding/base64",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "zg/5qtMna3tN3hiQcwiR6pr6Qao=",
+			"path": "encoding/binary",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "bXVNOuTWoGxUvGYV6MSZ9ClmN78=",
+			"path": "encoding/csv",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "YkjWVqqTT5P8E89iviex+gtOPkI=",
+			"path": "encoding/gob",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "h2CT+Ur0C19nJGIZPbz9tIM+/tY=",
+			"path": "encoding/hex",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "gvd0wPzX9YWg/3fgukl+S3yfBgM=",
+			"path": "encoding/json",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "jjtd6Zx1Uvrm/pEQXqpDnxPKaiA=",
+			"path": "encoding/pem",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "/IgtMOBRqTxEAfVs7ATBXQMVRf4=",
+			"path": "errors",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "3tCeWqDxTvbTramIAXB8/SNbv2E=",
+			"path": "expvar",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "iw+u728yc1nNcpfayqg3bPQEyi8=",
+			"path": "flag",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "mzoFlp43xtAjBf1Xc+iWtjRMjRs=",
+			"path": "fmt",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "9NR0rrcAT5J76C5xMS4AVksS9o0=",
 			"origin": "github.com/elastic/beats/vendor/github.com/StackExchange/wmi",
 			"path": "github.com/StackExchange/wmi",
@@ -281,6 +410,24 @@
 			"revision": ""
 		},
 		{
+			"checksumSHA1": "XSKEYhDg1iD2E+KjXa+bL7B1zw8=",
+			"path": "github.com/mybeat",
+			"revision": "5891acaa6cadfe38edc6aea1aba4e35b6b0e7000",
+			"revisionTime": "2018-09-29T05:42:07Z"
+		},
+		{
+			"checksumSHA1": "O2t5ISf9WZ4cEMyEWy+ZopMUi+A=",
+			"path": "github.com/mybeat/beater",
+			"revision": "5891acaa6cadfe38edc6aea1aba4e35b6b0e7000",
+			"revisionTime": "2018-09-29T05:42:07Z"
+		},
+		{
+			"checksumSHA1": "+8ucGh2NYrmkmX8vy3r9v+psnc4=",
+			"path": "github.com/mybeat/config",
+			"revision": "5891acaa6cadfe38edc6aea1aba4e35b6b0e7000",
+			"revisionTime": "2018-09-29T05:42:07Z"
+		},
+		{
 			"checksumSHA1": "QGZg/i744CkeFY2cKSDU06e65AQ=",
 			"origin": "github.com/elastic/beats/vendor/github.com/natefinch/npipe",
 			"path": "github.com/natefinch/npipe",
@@ -398,6 +545,196 @@
 			"checksumSHA1": "+OgOXBoiQ+X+C2dsAeiOHwBIEH0=",
 			"origin": "github.com/elastic/beats/vendor/gopkg.in/yaml.v2",
 			"path": "gopkg.in/yaml.v2",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "8uDqGC/VPYyRXlZlyte2MgShGlk=",
+			"path": "hash",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ZVi34IsQwwef75vda9YNHlZPDZg=",
+			"path": "hash/fnv",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "zQMMnVrjkV4jxCbMPSyMMpvVRVQ=",
+			"path": "io",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "cncTBQuqslugM/9QKe5YHBPgVv8=",
+			"path": "io/ioutil",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Lkudhk1kbtQBNP/ziEDEBNJcbUU=",
+			"path": "log",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "pGYvuanb9AAKjjdhoZZaMdbQIx0=",
+			"path": "log/syslog",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "dNFboLKpBHH2MKG8ltwjwEgKMpQ=",
+			"path": "math",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "kNr5vKfVAGvSKEYrsAyiHotFUw0=",
+			"path": "math/big",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "8hlrlY3eaM0QzRIjhacp0UuJyZU=",
+			"path": "math/rand",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "z8WuvG5qD2FWBlTePRl1B/ZdcNk=",
+			"path": "net",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "FeZAPq7SwErynZNEV3B/vLgZt0s=",
+			"path": "net/http",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "9Y8FrF23LOY0yhPfp7zeA4IWAuE=",
+			"path": "net/http/pprof",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "xl1tJ50oLPOnLV8WOn8vC1EsIkA=",
+			"path": "net/url",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "LNMKMmYYNipI1DkDqO7BmcLak6U=",
+			"path": "os",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "+X+q7Bi14e1yX4zk7W6uOZFE6IE=",
+			"path": "os/exec",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "XIIGZ8kPE4ffMi3m+73NiypBRkQ=",
+			"path": "os/signal",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "y90DC2RB2tzfRnl6Kh2e+uykm3I=",
+			"path": "os/user",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "WiBZ0e8nWu5RNLuULOIvRFMtGrM=",
+			"path": "path",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "YvTngO2UpdLAbnbSNsZym4KnpDw=",
+			"path": "path/filepath",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "TOHNtkv9rfKwJ/UtQbIMvArRwUA=",
+			"path": "plugin",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "dMdfpc+CsuwljoA2r+P1gCMaUcg=",
+			"path": "reflect",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "aleBYOFgAPpgQ3c3HzjKfAAE9uo=",
+			"path": "regexp",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "sm+vf1LSkxExag6h9z6VyDTbkww=",
+			"path": "regexp/syntax",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ZDRkIPR2kVQEwj99L4Zw6sNMBTo=",
+			"path": "runtime",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "gC9+ECRl1bCYMGBlTioBm87V9m8=",
+			"path": "runtime/debug",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "7e8nG2QkXR8ECRyZ+cyqkIQVK0s=",
+			"path": "runtime/pprof",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "0WX971Ncla/oFW29ZZ47Rk7EXZA=",
+			"path": "sort",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Gps8k7PeSyB5nUosByXnR6E3V7M=",
+			"path": "strconv",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "uv4drTK48xIZIEEumxjZTj/m//A=",
+			"path": "strings",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "+qf020Ow5odd704VxxaXGC+uxg4=",
+			"path": "sync",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "m1StJBuv862BHDLTbw1rHTD5m20=",
+			"path": "sync/atomic",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "LMMDaxl6wRorXLtu8yrDeQNEb1M=",
+			"path": "syscall",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "XW+Y2dz2CPJJwr4wrG3//yIzVkk=",
+			"path": "testing",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ccs6vzzKEaHQVjmN3iKCu6ac+cI=",
+			"path": "time",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "PEG5E223Bpo4MPvgqg7ryYwcqYE=",
+			"path": "unicode",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "c2Sw2+m89l/+H4v+xKHmri87Uw8=",
+			"path": "unicode/utf16",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "U7NVfywr2wNpfQFZFCeDdorVIm4=",
+			"path": "unicode/utf8",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "3A8sGLHVhyNfHY64cVKXreHBBdU=",
+			"path": "unsafe",
 			"revision": ""
 		}
 	],
