@@ -111,7 +111,7 @@ var (
 	errFetch  = errors.New("error fetching data")
 	tags      = []string{tag}
 )
-//使用样例
+// 使用样例
 func uptime() {
 	cmd := exec.Command("uptime")
 	buf, _ := cmd.Output()
