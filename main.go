@@ -4,7 +4,6 @@ import (
 	"os"
 
 	"github.com/elastic/beats/libbeat/beat"
-
 	"github.com/mybeat/beater"
 )
 
