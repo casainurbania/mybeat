@@ -3,6 +3,7 @@ package beater
 import (
 	"errors"
 	"fmt"
+	"os/exec"
 	"time"
 
 	"github.com/elastic/beats/libbeat/beat"
@@ -61,14 +62,18 @@ func (bt *Mybeat) Run(b *beat.Beat) error {
 		case <-bt.timer.C:
 			bt.timer.Reset(bt.config.Period)
 		}
-
+		
 		event := common.MapStr{
 			"timestamp": common.Time(time.Now()),
 			"dataid":    bt.config.DataID, // must have dataid field
 			"type":      b.Name,
 			"counter":   counter,
-			// "cpu"
+			"sys": 
 		}
+
+		// TODO event.update([追加采集字段]])
+		uptime() //print sys performence on AIX
+
 		bt.client.PublishEvent(event)
 		logp.Info("Event sent")
 		counter++
@@ -106,3 +111,9 @@ var (
 	errFetch  = errors.New("error fetching data")
 	tags      = []string{tag}
 )
+//使用样例
+func uptime() {
+	cmd := exec.Command("uptime")
+	buf, _ := cmd.Output()
+	return buf
+}
